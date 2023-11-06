@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+.container {
+
+    display: flex;
+    height: auto;
+    background-image: url(Connos/bnv_040115.jpg);
+    mix-blend-mode: transparent;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 3px 3px 10px wheat;
+}
+
+.container h1 {
+    color: white;
+    margin: 200px 20px;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+    font-size: 2.7rem;
+    background-color: rgba(16, 26, 1, 0.705);
+    border-radius: 40%;
+    font-family: 'Dancing Script', cursive;
+}
+
+span {
+    color: rgb(16, 26, 1);
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    padding: 3px;
+    border: 1px solid green;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 600px;
+    margin: 5%;
+    filter: saturate(150%);
+    border-radius: 50px;
+}
+
+.container1 img {
+    width: 600px;
+    height: 30dvw;
+}
+
+.container2 h1 {
+    margin: 5% 0%;
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+}
+
+.Con {
+    display: flex;
+    justify-content: center;
+}
+
+.contain {
+    display: block;
+    color: white;
+    margin-left: 2%;
+}
+
+.contain2 {
+    display: block;
+    color: white;
+    margin-left: 10%;
+}
+
+.contain3 {
+    display: block;
+    color: white;
+    margin-left: 10%;
+}
+
+.Customers h1,
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3.5rem;
+    margin: 5%;
+
+}
+
+.Customers img {
+    width: 400px;
+    float: right;
+}
+
+.Adoga,
+.Kubi,
+.container1 {
+
+    margin: 3% 25%;
+    text-align: center;
+    padding: 5px 0px;
+    border: 2px solid white;
+
+}
+
+.Adoga h1,
+.Kubi h1 {
+    color: white;
+}
+
+.Adoga p,
+.Kubi p,
+.container1 p {
+    color: greenyellow;
+    font-size: 1.5rem;
+
+}
+
+.Adoga img,
+.Kubi img {
+    width: 100px
+}
+
+.terrace {
+    margin: 10px 13%;
+    width: 1100px;
+    height: 90dvh;
+}
+
+.Meet {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.CEO,
+.COO,
+.DirectorFin {
+    /* margin: 1% 0.2%; */
+    color: greenyellow;
+    font-size: 5rem;
+    padding: 4% 4%;
+}
+
+.CEO img {
+    width: 400px;
+    border-radius: 50px;
+    filter: saturate(150%);
+}
+
+.COO img {
+    width: 400px;
+    border-radius: 50px;
+    filter: saturate(110%);
+}
+
+.DirectorFin img {
+    width: 330px;
+    border-radius: 50px;
+    filter: saturate(140%);
+}
+
+.CEO p,
+.COO p,
+.DirectorFin p {
+    color: white;
+    /* text-align: start; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    /* text-wrap: balance; */
+    padding: 1%;
+}
+
+img {
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.Footerelement{
+    display: flex;
+    
+}
+.About,
+ul,
+.Contacts,
+ul,
+.Connects,
+ul,
+.Community,
+ul {
+    display: flexbox;
+    color: white;
+    gap: 50px;
+    flex-direction: row;
+    margin: 50px;
+   
+}
+
+.About li,
+.Contacts li,
+.Connects li,
+.Community li {
+    list-style-type: none;
+    background-color: transparent;
+    
+}
+:any-link{
+    color: greenyellow;
+}

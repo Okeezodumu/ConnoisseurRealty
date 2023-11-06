@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+
+    margin: 0;
+    padding: 0;
+}
+
+.AboutUS {
+    display: flexbox;
+    /* background-image: url(Connos/PLAYPLay.jpg); */
+    height: 100dvh;
+    /* width: 100%; */
+    background-size: cover;
+    margin: 10px 50px;
+}
+
+.AboutUS h1 {
+    color: white;
+    font-size: 3rem;
+
+}
+
+.AboutUS p {
+    margin: 5px 1%;
+    font-size: 1.3rem;
+    text-wrap: balance;
+    color: greenyellow;
+
+
+}
+
+.AboutUS img {
+    width: 800px;
+    float: right;
+    border-radius: 20px;
+}
+
+.AboutUS button {
+    font-size: 1.5rem;
+   background-color: rgba(255, 255, 255, 0);
+   margin: 5px 150px;
+}
+
+.AboutUS button :hover {
+    color: orange;
+    
+}

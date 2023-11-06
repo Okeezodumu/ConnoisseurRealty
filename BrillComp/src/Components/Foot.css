@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(1, 19, 5, 0.993);
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.Foot {
+    padding: 2% 5cap;
+    /* height: 40px; */
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+.Foot img{
+    
+    width: 100px;
+    height: 15dvb;
+    background-color: transparent;
+    margin:0px 10px;
+    border-radius: 50px;
+}

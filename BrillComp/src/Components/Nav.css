@@ -1,0 +1,77 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    /* background-color: rgba(1, 19, 5, 0.993); */
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    padding: 7% 10cap;
+    height: 20px;
+    /* border: 2px solid orange; */
+    /* margin-top: -300px; */
+
+}
+
+.navimg {
+    width: 700px;
+    border-radius: 50px;
+    /* margin: 0; */
+    margin-top: -100px;
+    height: 40dvh;
+    background-color: transparent;
+  margin-left: -190px;
+  filter: saturate(200%);
+    
+}
+
+/* .nav h1 {
+    margin-top: 2px;
+    margin-left: 25px;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-shadow: 3px 3px 6px rgb(12, 8, 1);
+    font-family: 'Poppins', sans-serif;
+} */
+font{
+    font-size: 3.5rem;
+    color: greenyellow;
+}
+
+.navlink {
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 1%; */
+    gap: 30px;
+    float: right;
+
+}
+
+.navlink li {
+    list-style-type: none;
+}
+
+.navlink a {
+    text-decoration: none;
+    /* margin-left: 100px; */
+    color: rgb(252, 251, 250);
+    font-size: 20px;
+    
+}
+
+.navlink a:hover {
+    color: rgb(28, 200, 42);
+}
+#design{
+    color: white;
+    background-color: rgba(16, 26, 1, 0.705);
+    padding: 2px;
+    
+}
